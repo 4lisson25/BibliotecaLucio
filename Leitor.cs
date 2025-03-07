@@ -3,7 +3,8 @@ namespace Biblioteca;
 public class Leitor
 {
     public string Nome;
-    public int Idade;
+    public double Idade;
+    public string CPF;
     public List<Livro> LivrosLeitor = new List<Livro>();
 
     public Leitor(string nome, int idade)
